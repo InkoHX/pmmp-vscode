@@ -1,0 +1,42 @@
+{
+  "PocketMinePluginBase": {
+    "prefix": "PocketMinePluginBase",
+    "body": [
+      "namespace ${pluginbase};",
+      "",
+      "use pocketmine\\plugin\\PluginBase;",
+      "",
+      "class ${pmmpvscode} extends PluginBase",
+      "{",
+      "",
+      "}"
+    ]
+  },
+  "PluginBaseOnLoad": {
+    "prefix": "PluginBaseOnLoad",
+    "body": [
+      "public function onLoad()",
+      "{",
+      "// Code",
+      "}"
+    ]
+  },
+  "PluginBaseOnEnable": {
+    "prefix": "PluginBaseOnEnabled",
+    "body": [
+      "public function onEnable()",
+      "{",
+      "// Code",
+      "}"
+    ]
+  },
+  "PluginBaseOnDisable": {
+    "prefix": "PluginBaseOnDisable",
+    "body": [
+      "public function onDisable()",
+      "{",
+      "// Code",
+      "}"
+    ]
+  }
+}

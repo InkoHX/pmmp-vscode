@@ -1,0 +1,81 @@
+{
+  "-PluginYaml-Base": {
+    "prefix": "PluginYaml-Base",
+    "body": [
+      "name: $1",
+      "main: $2",
+      "api: $3",
+      "version: $4"
+    ]
+  },
+  "PluginYaml-Website": {
+    "prefix": "website",
+    "descriptiton": "Short description of the plugin.",
+    "body": [
+      "website: ${URL}"
+    ]
+  },
+  "PluginYaml-Prefix": {
+    "prefix": "prefix",
+    "description": "Alternative prefix to use in the plugin's log messages. Defaults to the plugin name.",
+    "body": [
+      "prefix: ${prefix}"
+    ]
+  },
+  "PluginYaml-Author": {
+    "prefix": "author",
+    "descriptiton": "Author name of the plugin.",
+    "body": [
+      "author: ${your name}"
+    ]
+  },
+  "PluginYaml-Authors": {
+    "prefix": "authors",
+    "descriptiton": "A list of author names, if there are more than one. If both author and authors are defined, a list will be formed containing both.",
+    "body": [
+      "authors: ['${1:name}', '${2:name}']"
+    ]
+  },
+  "PluginYaml-Load": {
+    "prefix": "load",
+    "description": "When in the startup sequence to prefer loading this plugin. Currently can be one of STARTUP or POSTWORLD. See plugin load order.",
+    "body": [
+      "load: ${POSTWORLD}"
+    ]
+  },
+  "PluginYaml-Depend": {
+    "prefix": "depend",
+    "descriptiton": "List of plugins that this plugin depends on. Plugin will not load if any of these plugins are missing.",
+    "body": [
+      "depend: ['$1']"
+    ]
+  },
+  "PluginYaml-Softdepend": {
+    "prefix": "softdepend",
+    "descripiton": "List of plugins that the plugin can optionally depend on. Plugins in this list must load prior to the plugin soft-depending on them.",
+    "body": [
+      "softdepend: ['$1']"
+    ]
+  },
+  "PluginYaml-Loadbefore": {
+    "prefix": "loaddefore",
+    "description": "List of plugins that this plugin must load prior to. Works like a soft-dependency in reverse.",
+    "body": [
+      "loadbefore: ['$1']"
+    ]
+  },
+  "PluginYaml-Extensions": {
+    "prefix": "extensions",
+    "description": "List of PHP extensions that the plugin requires. Plugin will not load if any are missing or have unmet version constraints. ",
+    "body": [
+      "extensions: [$1]"
+    ]
+  },
+  "PluginYaml-Mcpe-protocol": {
+    "prefix": "mcpe-protocol",
+    "description": "List of Minecraft PE network protocol versions the plugin is compatible with. Plugin will fail to load if the current server protocol version is not in this list.",
+    "body": [
+      "mcpe-protocol: [$1]"
+    ]
+  }
+}
