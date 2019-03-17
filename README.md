@@ -1,6 +1,3 @@
-# PocketMine Code Snippets
-PocketMine-MP extension for VSCode
-
 # PocketMine Code Snippets README
 
 This is the README for your extension "PocketMine Code Snippets". After writing up a brief description, we recommend including the following sections.
