@@ -2,7 +2,7 @@
     "name": "pocketmine-code-snippets",
     "displayName": "PocketMine Code Snippets",
     "description": "PocketMine-MP extension for VSCode",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "InkoHX",
     "license": "Apache License 2.0",
     "repository": {
