@@ -1,2 +1,2 @@
-# pmmp-vscode
-PocketMine-MP extension for VS Code
+# PocketMine Code Snippets
+PocketMine-MP extension for VSCode
