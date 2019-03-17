@@ -17,7 +17,7 @@
     "body": [
       "public function onLoad()",
       "{",
-      "// Code",
+      "${Code}",
       "}"
     ]
   },
@@ -26,7 +26,7 @@
     "body": [
       "public function onEnable()",
       "{",
-      "// Code",
+      "${Code}",
       "}"
     ]
   },
@@ -35,7 +35,7 @@
     "body": [
       "public function onDisable()",
       "{",
-      "// Code",
+      "${Code}",
       "}"
     ]
   }
