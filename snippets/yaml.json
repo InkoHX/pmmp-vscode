@@ -26,7 +26,7 @@
     "prefix": "author",
     "descriptiton": "Author name of the plugin.",
     "body": [
-      "author: ${your name}"
+      "author: ${yourname}"
     ]
   },
   "PluginYaml-Authors": {

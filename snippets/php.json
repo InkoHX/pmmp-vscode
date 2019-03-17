@@ -13,7 +13,11 @@
     ]
   },
   "PluginBaseOnLoad": {
-    "prefix": "public function onLoad",
+    "prefix": [
+      "public function onLoad",
+      "onLoad"
+    ],
+    "description": "Called when the plugin is loaded, before calling onEnable()",
     "body": [
       "public function onLoad()",
       "{",
@@ -22,7 +26,11 @@
     ]
   },
   "PluginBaseOnEnable": {
-    "prefix": "public function onEnabled",
+    "prefix": [
+      "public function onEnabled",
+      "onEnabled"
+    ],
+    "description": "Called when the plugin is enabled",
     "body": [
       "public function onEnable()",
       "{",
@@ -31,7 +39,11 @@
     ]
   },
   "PluginBaseOnDisable": {
-    "prefix": "public function onDisable",
+    "prefix": [
+      "public function onDisable",
+      "onDisable"
+    ],
+    "description": "Called when the plugin is disabled",
     "body": [
       "public function onDisable()",
       "{",
