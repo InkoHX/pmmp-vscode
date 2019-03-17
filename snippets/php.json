@@ -8,7 +8,7 @@
       "",
       "class $2 extends PluginBase",
       "{",
-      "",
+      "\t$3",
       "}"
     ]
   },
